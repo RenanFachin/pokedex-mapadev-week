@@ -1,0 +1,103 @@
+.cartao-pokemon{    
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 6px; /* arredendondar as bordas*/
+    display: none; /*para nao mostrar os outros poke*/
+}
+
+.cartao-pokemon .HA{
+    color: #a3a1a5c5;
+    font-weight: 500;
+}
+
+.cartao-pokemon .cartao-topo {
+    padding: 30px 40px 0; /*30 cima, 40 lados e 0 baixo */
+}
+
+.cartao-pokemon .nome {
+    margin-bottom: 5px;
+}
+
+.cartao-pokemon .tipo {
+    font-size: 12px;
+    background-color: #FFFFFF;
+    opacity: 0.7;
+    border-radius: 10px;
+    padding: 3px 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.cartao-pokemon .detalhes {
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cartao-pokemon .cartao-imagem {
+    width: 350px;
+    height: 350px;
+}
+
+.cartao-pokemon img{
+    max-height: 100%;
+}
+
+.cartao-pokemon .cartao-informacoes {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    padding: 80px 30px 50px;
+    margin-top: -85px; /*para dar efeito de sobreposição*/
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.cartao-pokemon .cartao-informacoes h3{
+    font-size: 18px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #9fa2a7;
+}
+
+.cartao-pokemon .cartao-informacoes .status, .cartao-pokemon .cartao-informacoes .habilidades {
+    padding: 0 10px;
+    width: 180px;
+}
+
+.cartao-pokemon .cartao-informacoes .habilidades ul li, .cartao-pokemon .cartao-informacoes .status ul li{
+    border-bottom: 1px solid #c3c4c5;
+    padding: 0 0 5px;
+    margin-bottom: 5px;
+    font-size: 14px;    
+}
+
+.cartao-pokemon.aberto {
+    display: block;
+}
+
+.tipo-fogo {
+    background-color: #b86506;
+}
+
+.tipo-eletrico {
+    background-color: #FCC719;
+}
+
+.tipo-grama {
+    background-color: #2E8B57;
+}
+
+.tipo-agua {
+    background-color: #5190c7;
+}
+
+.tipo-fantasma {
+    background-color: #be59cf;
+}
+
+.tipo-dragao {
+    background-color: #C29791;
+}
+
+.tipo.venenoso{
+    background-color: #2a0331;
+}

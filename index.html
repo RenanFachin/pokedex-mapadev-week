@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex - MapaDev Week</title>
+    <!-- Linkando os estilos-->
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/global.css">
+    <link rel="stylesheet" href="src/css/cartao.css">
+    <link rel="stylesheet" href="src/css/listagem.css">
+    <link rel="stylesheet" href="src/css/responsivo.css">
+
+    <!-- Linkando as Fontes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;300;400;500;800&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <main>
+        <div class="pokedex">
+
+            <!-- Painel central-->
+            <div class="cartoes-pokemon">
+
+                <!-- Bulbasaur #001-->
+                <div class="cartao-pokemon aberto tipo-grama" id="cartao-bulbasaur">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">Bulbasaur</h2>
+                            <span>#001</span>
+                        </div>
+
+                        <span class="tipo">Grama</span>
+
+                        <div class="cartao-imagem">
+                            <img src="src/imagens/bulbasaur.png" alt="Imagem do Bulbasaur">
+                        </div>
+                    </div>
+
+                    <!-- Parte dos atributos do pokemon-->
+                    <div class="cartao-informacoes">
+                        <!-- atributos -->
+                        <div class="status">
+                            <h3>Base Status</h3>
+
+                            <ul>
+                                <li>HP: 45</li>
+                                <li>Attack: 49</li>
+                                <li>Defense: 49</li>
+                                <li>Sp. Attack: 65</li>
+                                <li>Sp. Defense: 65</li>
+                                <li>Speed: 45</li>
+                            </ul>
+                        </div>
+
+                        <!-- Moves -->
+                        <div class="habilidades">
+                            <h3>Abilities</h3>
+
+                            <ul>
+                                <li>Overgrow</li>
+                                <li class="HA">Chlorophyll (Hidden Ability)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Ivysaur #002-->
+                <div class="cartao-pokemon tipo-grama" id="cartao-ivysaur">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">Ivysaur</h2>
+                            <span>#002</span>
+                        </div>
+
+                        <span class="tipo">Grama</span>
+                        <span class="tipo">Venenoso</span>
+
+                        <div class="cartao-imagem">
+                            <img src="src/imagens/Ivysaur.png" alt="Imagem do Ivysaur">
+                        </div>
+                    </div>
+
+                    <!-- Parte dos atributos do pokemon-->
+                    <div class="cartao-informacoes">
+                        <!-- atributos -->
+                        <div class="status">
+                            <h3>Base Status</h3>
+
+                            <ul>
+                                <li>HP: 60</li>
+                                <li>Attack: 62</li>
+                                <li>Defense: 63</li>
+                                <li>Sp. Attack: 80</li>
+                                <li>Sp. Defense: 80</li>
+                                <li>Speed: 60</li>
+                            </ul>
+                        </div>
+
+                        <!-- Moves -->
+                        <div class="habilidades">
+                            <h3>Abilities</h3>
+
+                            <ul>
+                                <li>Overgrow</li>
+                                <li class="HA">Chlorophyll (Hidden Ability)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Venusaur #003-->
+                <div class="cartao-pokemon tipo-grama" id="cartao-venusaur">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">Venusaur</h2>
+                            <span>#003</span>
+                        </div>
+
+                        <span class="tipo">Grama</span>
+                        <span class="tipo">Venenoso</span>
+
+                        <div class="cartao-imagem">
+                            <img src="src/imagens/Venusaur.png" alt="Imagem do Venusaur">
+                        </div>
+                    </div>
+
+                    <!-- Parte dos atributos do pokemon-->
+                    <div class="cartao-informacoes">
+                        <!-- atributos -->
+                        <div class="status">
+                            <h3>Base Status</h3>
+
+                            <ul>
+                                <li>HP: 80</li>
+                                <li>Attack: 82</li>
+                                <li>Defense: 83</li>
+                                <li>Sp. Attack: 100</li>
+                                <li>Sp. Defense: 100</li>
+                                <li>Speed: 80</li>
+                            </ul>
+                        </div>
+
+                        <!-- Moves -->
+                        <div class="habilidades">
+                            <h3>Abilities</h3>
+
+                            <ul>
+                                <li>Overgrow</li>
+                                <li class="HA">Chlorophyll (Hidden Ability)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Charmander #004-->
+                <div class="cartao-pokemon tipo-fogo" id="cartao-charmander">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">Charmander</h2>
+                            <span>#004</span>
+                        </div>
+
+                        <span class="tipo">Fogo</span>
+
+                        <div class="cartao-imagem">
+                            <img src="src/imagens/charmander.png" alt="Imagem do Charmander">
+                        </div>
+                    </div>
+
+                    <!-- Parte dos atributos do pokemon-->
+                    <div class="cartao-informacoes">
+                        <!-- atributos -->
+                        <div class="status">
+                            <h3>Base Status</h3>
+
+                            <ul>
+                                <li>HP: 39</li>
+                                <li>Attack: 52</li>
+                                <li>Defense: 43</li>
+                                <li>Sp. Attack: 60</li>
+                                <li>Sp. Defense: 50</li>
+                                <li>Speed: 65</li>
+                            </ul>
+                        </div>
+
+                        <!-- Moves -->
+                        <div class="habilidades">
+                            <h3>Abilities</h3>
+
+                            <ul>
+                                <li>Blaze</li>
+                                <li class="HA">Solar Power (Hidden Ability)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Charmeleon #005-->
+                <div class="cartao-pokemon tipo-fogo" id="cartao-charmeleon">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">Charmeleon</h2>
+                            <span>#005</span>
+                        </div>
+
+                        <span class="tipo">Fogo</span>
+
+                        <div class="cartao-imagem">
+                            <img src="src/imagens/charmeleon.png" alt="Imagem do Charmeleon">
+                        </div>
+                    </div>
+
+                    <!-- Parte dos atributos do pokemon-->
+                    <div class="cartao-informacoes">
+                        <!-- atributos -->
+                        <div class="status">
+                            <h3>Base Status</h3>
+
+                            <ul>
+                                <li>HP: 58</li>
+                                <li>Attack: 64</li>
+                                <li>Defense: 58</li>
+                                <li>Sp. Attack: 80</li>
+                                <li>Sp. Defense: 65</li>
+                                <li>Speed: 80</li>
+                            </ul>
+                        </div>
+
+                        <!-- Moves -->
+                        <div class="habilidades">
+                            <h3>Abilities</h3>
+
+                            <ul>
+                                <li>Blaze</li>
+                                <li class="HA">Solar Power (Hidden Ability)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Charizard #006-->
+                <div class="cartao-pokemon tipo-fogo" id="cartao-charizard">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">Charizard</h2>
+                            <span>#006</span>
+                        </div>
+
+                        <span class="tipo">Fogo</span>
+                        <span class="tipo">Voador</span>
+
+                        <div class="cartao-imagem">
+                            <img src="src/imagens/Charizard.png" alt="Imagem do Charizard">
+                        </div>
+                    </div>
+
+                    <!-- Parte dos atributos do pokemon-->
+                    <div class="cartao-informacoes">
+                        <!-- atributos -->
+                        <div class="status">
+                            <h3>Base Status</h3>
+
+                            <ul>
+                                <li>HP: 78</li>
+                                <li>Attack: 84</li>
+                                <li>Defense: 578</li>
+                                <li>Sp. Attack: 100</li>
+                                <li>Sp. Defense: 85</li>
+                                <li>Speed: 100</li>
+                            </ul>
+                        </div>
+
+                        <!-- Moves -->
+                        <div class="habilidades">
+                            <h3>Abilities</h3>
+
+                            <ul>
+                                <li>Blaze</li>
+                                <li class="HA">Solar Power (Hidden Ability)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pikachu #025-->
+                <div class="cartao-pokemon tipo-eletrico" id="cartao-pikachu">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">Pikachu</h2>
+                            <span>#025</span>
+                        </div>
+
+                        <span class="tipo">Elétrico</span>
+
+                        <div class="cartao-imagem">
+                            <img src="src/imagens/pikachu.png" alt="Imagem do Pikachu">
+                        </div>
+                    </div>
+
+                    <!-- Parte dos atributos do pokemon-->
+                    <div class="cartao-informacoes">
+                        <!-- atributos -->
+                        <div class="status">
+                            <h3>Base Status</h3>
+
+                            <ul>
+                                <li>HP: 35</li>
+                                <li>Attack: 55</li>
+                                <li>Defense: 40</li>
+                                <li>Sp. Attack: 50</li>
+                                <li>Sp. Defense: 50</li>
+                                <li>Speed: 90</li>
+                            </ul>
+                        </div>
+
+                        <!-- Moves -->
+                        <div class="habilidades">
+                            <h3>Abilities</h3>
+
+                            <ul>
+                                <li>Static</li>
+                                <li class="HA">Lightning Rod (Hidden Ability)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Raichu #026-->
+                <div class="cartao-pokemon tipo-eletrico" id="cartao-raichu">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">Raichu</h2>
+                            <span>#026</span>
+                        </div>
+
+                        <span class="tipo">Elétrico</span>
+
+                        <div class="cartao-imagem">
+                            <img src="src/imagens/raichu.png" alt="Imagem do Raichu">
+                        </div>
+                    </div>
+
+                    <!-- Parte dos atributos do pokemon-->
+                    <div class="cartao-informacoes">
+                        <!-- atributos -->
+                        <div class="status">
+                            <h3>Base Status</h3>
+
+                            <ul>
+                                <li>HP: 60</li>
+                                <li>Attack: 90</li>
+                                <li>Defense: 55</li>
+                                <li>Sp. Attack: 90</li>
+                                <li>Sp. Defense: 80</li>
+                                <li>Speed: 110</li>
+                            </ul>
+                        </div>
+
+                        <!-- Moves -->
+                        <div class="habilidades">
+                            <h3>Abilities</h3>
+
+                            <ul>
+                                <li>Static</li>
+                                <li class="HA">Lightning Rod (Hidden Ability)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Shellder #090-->
+                <div class="cartao-pokemon tipo-agua" id="cartao-shellder">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">Shellder</h2>
+                            <span>#090</span>
+                        </div>
+
+                        <span class="tipo">Água</span>
+
+                        <div class="cartao-imagem">
+                            <img src="src/imagens/shellder.png" alt="Imagem do Shellder">
+                        </div>
+                    </div>
+
+                    <!-- Parte dos atributos do pokemon-->
+                    <div class="cartao-informacoes">
+                        <!-- atributos -->
+                        <div class="status">
+                            <h3>Base Status</h3>
+
+                            <ul>
+                                <li>HP: 30</li>
+                                <li>Attack: 65</li>
+                                <li>Defense: 100</li>
+                                <li>Sp. Attack: 45</li>
+                                <li>Sp. Defense: 25</li>
+                                <li>Speed: 40</li>
+                            </ul>
+                        </div>
+
+                        <!-- Moves -->
+                        <div class="habilidades">
+                            <h3>Abilities</h3>
+
+                            <ul>
+                                <li>Shell Armor</li>
+                                <li>Skill Link</li>
+                                <li class="HA">Overcoat (Hidden Ability)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cloyster #091-->
+                <div class="cartao-pokemon tipo-agua" id="cartao-cloyster">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">Cloyster</h2>
+                            <span>#091</span>
+                        </div>
+
+                        <span class="tipo">Água</span>
+                        <span class="tipo">Gelo</span>
+
+                        <div class="cartao-imagem">
+                            <img src="src/imagens/Cloyster.png" alt="Imagem do Cloyster">
+                        </div>
+                    </div>
+
+                    <!-- Parte dos atributos do pokemon-->
+                    <div class="cartao-informacoes">
+                        <!-- atributos -->
+                        <div class="status">
+                            <h3>Base Status</h3>
+
+                            <ul>
+                                <li>HP: 50</li>
+                                <li>Attack: 95</li>
+                                <li>Defense: 180</li>
+                                <li>Sp. Attack: 85</li>
+                                <li>Sp. Defense: 45</li>
+                                <li>Speed: 70</li>
+                            </ul>
+                        </div>
+
+                        <!-- Moves -->
+                        <div class="habilidades">
+                            <h3>Abilities</h3>
+
+                            <ul>
+                                <li>Shell Armor</li>
+                                <li>Skill Link</li>
+                                <li class="HA">Overcoat (Hidden Ability)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gengar #094-->
+                <div class="cartao-pokemon tipo-fantasma" id="cartao-gengar">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">Gengar</h2>
+                            <span>#094</span>
+                        </div>
+
+                        <span class="tipo">Fantasma</span>
+                        <span class="tipo">Veneno</span>
+
+                        <div class="cartao-imagem">
+                            <img src="src/imagens/gengar.png" alt="Imagem do Gengar">
+                        </div>
+                    </div>
+
+                    <!-- Parte dos atributos do pokemon-->
+                    <div class="cartao-informacoes">
+                        <!-- atributos -->
+                        <div class="status">
+                            <h3>Base Status</h3>
+
+                            <ul>
+                                <li>HP: 60</li>
+                                <li>Attack: 65</li>
+                                <li>Defense: 80</li>
+                                <li>Sp. Attack: 170</li>
+                                <li>Sp. Defense: 95</li>
+                                <li>Speed: 130</li>
+                            </ul>
+                        </div>
+
+                        <!-- Moves -->
+                        <div class="habilidades">
+                            <h3>Abilities</h3>
+
+                            <ul>
+                                <li>Cursed Body</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Magikarp #129-->
+                <div class="cartao-pokemon tipo-agua" id="cartao-magikarp">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">Magikarp</h2>
+                            <span>#129</span>
+                        </div>
+
+                        <span class="tipo">Água</span>
+
+                        <div class="cartao-imagem">
+                            <img src="src/imagens/magikarp.png" alt="Imagem do Magikarp">
+                        </div>
+                    </div>
+
+                    <!-- Parte dos atributos do pokemon-->
+                    <div class="cartao-informacoes">
+                        <!-- atributos -->
+                        <div class="status">
+                            <h3>Base Status</h3>
+
+                            <ul>
+                                <li>HP: 20</li>
+                                <li>Attack: 10</li>
+                                <li>Defense: 55</li>
+                                <li>Sp. Attack: 15</li>
+                                <li>Sp. Defense: 20</li>
+                                <li>Speed: 80</li>
+                            </ul>
+                        </div>
+
+                        <!-- Moves -->
+                        <div class="habilidades">
+                            <h3>Abilities</h3>
+
+                            <ul>
+                                <li>Intimidate</li>
+                                <li class="HA">Moxie (Hidden Ability)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gyarados #130-->
+                <div class="cartao-pokemon tipo-agua" id="cartao-gyarados">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">Gyarados</h2>
+                            <span>#130</span>
+                        </div>
+
+                        <span class="tipo">Água</span>
+                        <span class="tipo">Voador</span>
+
+                        <div class="cartao-imagem">
+                            <img src="src/imagens/gyarados.png" alt="Imagem do Gyarados">
+                        </div>
+                    </div>
+
+                    <!-- Parte dos atributos do pokemon-->
+                    <div class="cartao-informacoes">
+                        <!-- atributos -->
+                        <div class="status">
+                            <h3>Base Status</h3>
+
+                            <ul>
+                                <li>HP: 95</li>
+                                <li>Attack: 125</li>
+                                <li>Defense: 79</li>
+                                <li>Sp. Attack: 60</li>
+                                <li>Sp. Defense: 100</li>
+                                <li>Speed: 81</li>
+                            </ul>
+                        </div>
+
+                        <!-- Moves -->
+                        <div class="habilidades">
+                            <h3>Abilities</h3>
+
+                            <ul>
+                                <li>Intimidate</li>
+                                <li class="HA">Moxie (Hidden Ability)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Dragonite #149-->
+                <div class="cartao-pokemon tipo-dragao" id="cartao-dragonite">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">Dragonite</h2>
+                            <span>#149</span>
+                        </div>
+
+                        <span class="tipo">Dragão</span>
+                        <span class="tipo">Voador</span>
+
+                        <div class="cartao-imagem">
+                            <img src="src/imagens/dragonite.png" alt="Imagem do Dragonite">
+                        </div>
+                    </div>
+
+                    <!-- Parte dos atributos do pokemon-->
+                    <div class="cartao-informacoes">
+                        <!-- atributos -->
+                        <div class="status">
+                            <h3>Base Status</h3>
+
+                            <ul>
+                                <li>HP: 91</li>
+                                <li>Attack: 134</li>
+                                <li>Defense: 95</li>
+                                <li>Sp. Attack: 100</li>
+                                <li>Sp. Defense: 100</li>
+                                <li>Speed: 80</li>
+                            </ul>
+                        </div>
+
+                        <!-- Moves -->
+                        <div class="habilidades">
+                            <h3>Abilities</h3>
+
+                            <ul>
+                                <li>Inner Focus</li>
+                                <li class="HA">Multiscale (Hidden Ability)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Painel lateral-->
+            <nav class="listagem">
+                <ul>
+                    <!-- Bulbasaur -->
+                    <li class="pokemon ativo" id="bulbasaur">
+                        <img src="src/imagens/cabeca-bulbasaur.png" alt="Cabeça do Bulbasaur">
+                        <span>Bulbasaur</span>
+                    </li>
+
+                    <!-- Ivysaur -->
+                    <li class="pokemon" id="ivysaur">
+                        <img src="src/imagens/cabeca-Ivysaur.png" alt="Cabeça do Ivysaur">
+                        <span>Ivysaur</span>
+                    </li>
+
+                    <!-- Venusaur -->
+                    <li class="pokemon" id="venusaur">
+                        <img src="src/imagens/cabeca-Venusaur.png" alt="Cabeça do Venusaur">
+                        <span>Venusaur</span>
+                    </li>
+
+                    <!-- Charmander -->
+                    <li class="pokemon" id="charmander">
+                        <img src="src/imagens/cabeca-charmander.png" alt="Cabeça do Charmander">
+                        <span>Charmander</span>
+                    </li>
+
+                    <!-- Charmeleon -->
+                    <li class="pokemon" id="charmeleon">
+                        <img src="src/imagens/cabeca-charmeleon.png" alt="Cabeça do Charmeleon">
+                        <span>Charmeleon</span>
+                    </li>
+
+                    <!-- Charizard -->
+                    <li class="pokemon" id="charizard">
+                        <img src="src/imagens/cabeca-charizard.png" alt="Cabeça do Charizard">
+                        <span>Charizard</span>
+                    </li>
+
+                    <!-- Pikachu -->
+                    <li class="pokemon" id="pikachu">
+                        <img src="src/imagens/cabeca-pikachu.png" alt="Cabeça do Pikachu">
+                        <span>Pikachu</span>
+                    </li>
+
+                    <!-- Raichu -->
+                    <li class="pokemon" id="raichu">
+                        <img src="src/imagens/cabeca-raichu026.png" alt="Cabeça do Raichu">
+                        <span>Raichu</span>
+                    </li>
+
+                    <!-- Shellder -->
+                    <li class="pokemon" id="shellder">
+                        <img src="src/imagens/cabeca-shellder.png" alt="Cabeça do Shellder">
+                        <span>Shellder</span>
+                    </li>
+
+                    <!-- Cloyster -->
+                    <li class="pokemon" id="cloyster">
+                        <img src="src/imagens/cabeca-cloyster.png" alt="Cabeça do Cloyster">
+                        <span>Cloyster</span>
+                    </li>
+                    <!-- Gengar -->
+                    <li class="pokemon" id="gengar">
+                        <img src="src/imagens/cabeca-gengar.png" alt="Cabeça do Gengar">
+                        <span>Gengar</span>
+                    </li>
+
+                    <!-- Magikarp -->
+                    <li class="pokemon" id="magikarp">
+                        <img src="src/imagens/cabeca-magikarp.png" alt="Cabeça do Magikarp">
+                        <span>Magikarp</span>
+                    </li>
+
+                    <!-- Gyarados -->
+                    <li class="pokemon" id="gyarados">
+                        <img src="src/imagens/cabeca-gyarados.png" alt="Cabeça do Gyarados">
+                        <span>Gyarados</span>
+                    </li>
+
+                    <!-- Dragonite -->
+                    <li class="pokemon" id="dragonite">
+                        <img src="src/imagens/cabeca-dragonite.png" alt="Cabeça do Dragonite">
+                        <span>Dragonite</span>
+                    </li>
+                </ul>
+            </nav>
+
+        </div>
+
+    </main>
+
+    
+        <!-- Linkando o JS-->
+        <script src="src/js/index.js"></script>
+</body>
+
+</html>
